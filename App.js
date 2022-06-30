@@ -27,7 +27,7 @@ const App = () => {
     <View style={toggle ? style.containerLight : style.container}>
       <TouchableOpacity onPress={handleChangeToggle}>
         <Image
-          style={toggle ? style.lightingOff : style.lightingOn}
+          style={toggle ? style.lightingOn : style.lightingOff}
           source={
             toggle
               ? require('./assets/icons/eco-light.png')
